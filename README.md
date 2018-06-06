@@ -17,17 +17,31 @@ En consideración a ello, nos es posible explorar esta información descrita de 
 
 ## Definición del producto
 
-* ¿Quiénes son los principales usarios de producto?.
+Para lograr el producto final, fue necesario desarrollar preguntas para el usuario. Estas son las siguientes:
+
+* ¿Quiénes son los principales usarios del producto?.
+
+
 
 * ¿Cuáles son los objetivos de estos usarios en relación con el producto?.
 
+
+
 * ¿Cuáles son los datos más relevantes que el usuario quiere ver en la interfaz y por qué?. ¿Cómo los descubriste?.
+
+
 
 * ¿Cuándo revisa normalmente estos datos?.
 
+
+
 * ¿Cómo crees que el producto les está resolviendo sus problemas?.
 
+
+
 * ¿Cómo fue tu proceso de diseño?.
+
+
 
 ## Sketch de la solución
 
