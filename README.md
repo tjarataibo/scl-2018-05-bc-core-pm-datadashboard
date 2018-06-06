@@ -21,7 +21,7 @@ En consideración a ello, nos es posible explorar esta información descrita de 
 
 * ¿Cuáles son los objetivos de estos usarios en relación con el producto?.
 
-* ¿Cuáles son los datos más relevantes que el usuario quiere ver en la interfaz y por qué. Cómo los descubriste?.
+* ¿Cuáles son los datos más relevantes que el usuario quiere ver en la interfaz y por qué?. ¿Cómo los descubriste?.
 
 * ¿Cuándo revisa normalmente estos datos?.
 
