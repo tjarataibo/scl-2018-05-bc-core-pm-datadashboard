@@ -10,3 +10,29 @@ Para comprender esta recopilación de data, a continuación se describe un ejemp
 Si pensamos en un dashboard podemos pensar en el tablero de control de un auto o de un avión. Un espacio desde el cual un usuario puede tener acceso a la información y controles más relevantes, en este caso, del vehículo que está utilizando. El dashboard de un auto le permite a quien conduce saber a qué velocidad está yendo, qué cambio está utilizando, cuánto combustible tiene disponible, qué tan caliente está el motor, cuántas revoluciones por minuto dan las ruedas, cuánta distancia has recorrido, etc.
 
 En consideración a ello, nos es posible explorar esta información descrita de Laboratoria.
+
+
+
+# User Experience Design
+
+## Definición del producto
+
+* ¿Quiénes son los principales usarios de producto?.
+
+* ¿Cuáles son los objetivos de estos usarios en relación con el producto?.
+
+* ¿Cuáles son los datos más relevantes que el usuario quiere ver en la interfaz y por qué. Cómo los descubriste?.
+
+* ¿Cuándo revisa normalmente estos datos?.
+
+* ¿Cómo crees que el producto les está resolviendo sus problemas?.
+
+* ¿Cómo fue tu proceso de diseño?.
+
+## Sketch de la solución
+
+
+
+
+
+## Diseño de la Interfaz de Usuario
