@@ -3,9 +3,42 @@
   <head>
     <meta charset="utf-8">
     <title>Data Dashboard</title>
-    <link rel="stylesheet" href="style.css" />
+
+     <!-- Modo móvil -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="style.css"/>
+
+     <!-- Fuente -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
   </head>
   <body>
     <script src="main.js"></script>
+
+    <!-- Para pedir correo electrónico -->
+    <form>
+    <div id="init">
+      <label for="emailOne"></label>
+      <input type="email" id="emailOne" placeholder="Correo electrónico" name="emailOne" required>
+    </form>
+    
+    <!-- Para pedir contraseña -->
+    <form>
+      <label for="passwordOne"></label>
+      <input type="password" id="passwordOne" placeholder="Contraseña" name="passwordOne" required>
+    </form>
+
+    <!-- Para pedir contraseña -->
+    <label>
+        <input type="checkbox" name="reset" value="passwordReset" checked> Restaurar contraseña
+      </label>
+      
+    <!-- Para pedir entrar al sistema -->
+    <form>
+    <button type="submit">Iniciar sesión</button>
+  </div>
+</form>
+
   </body>
 </html>
