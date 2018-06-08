@@ -19,29 +19,32 @@ En consideración a ello, nos es posible explorar esta información descrita de 
 
 Para el desarrollo del producto, fue necesario desarrollar preguntas. Estas son las siguientes:
 
+
 * ¿Quiénes son los principales usarios del producto?.
 
 Las Training Manager son las principales usuarias del producto, puesto a que hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje.
 
+
 * ¿Cuáles son los objetivos de estos usarios en relación con el producto?.
 
-   1. Permitir al usuario seleccionar un cohort de una lista de cohorts.
-
-   2. Al seleccionar un cohort:
-     * Listar las alumnas de ese cohort
-     * Para cada alumna:
+1. Permitir al usuario seleccionar un cohort de una lista de cohorts.
+2. Al seleccionar un cohort:
+   * Listar las alumnas de ese cohort
+   * Para cada alumna:
      * Calcular porcentaje de completitud de todos los cursos.
      * Calcular grado de completitud de lecturas, ejercicios autocorregidos, y quizzes.
-     * Ordenar alumnas por completitud general (porcentaje consumido/completado de todos los cursos del cohort en cuestión), de lecturas, ejercicios autocorregidos y quizzes.
-    * Filtrar/buscar alumnas por nombre.
+   * Ordenar alumnas por completitud general (porcentaje consumido/completado de todos los cursos del cohort en cuestión), de lecturas, ejercicios autocorregidos y quizzes.
+   * Filtrar/buscar alumnas por nombre.
 
-   3. Visualizarse sin problemas desde distintos tamaños de pantallas: móviles, tablets y desktops.
 
-   4. Incluir pruebas unitarias.
+3. Visualizarse sin problemas desde distintos tamaños de pantallas: móviles, tablets y desktops.
+4. Incluir pruebas unitarias.
+
 
 * ¿Cuáles son los datos más relevantes que el usuario quiere ver en la interfaz y por qué?. ¿Cómo los descubriste?.
 
 El orden de resultados por cohort, alumnas y que, a la vez, se puedan filtrar la búsqueda, porque es más eficiente ver una lista resumida los resultados de cada curso, lectura, ejercicio y quizzes; que un listado uno a uno por alumnas.
+
 
 * ¿Cuándo revisa normalmente estos datos?.
 
@@ -51,9 +54,12 @@ El orden de resultados por cohort, alumnas y que, a la vez, se puedan filtrar la
 
 Está ayudando a entregar información, de una forma más estética y más amable.
 
+
 * ¿Cómo fue tu proceso de diseño?.
 
-* ¿Dónde va a estar el producto?
+
+
+* ¿Dónde va a estar el producto?.
 
 
 
