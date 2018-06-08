@@ -17,14 +17,24 @@ En consideración a ello, nos es posible explorar esta información descrita de 
 
 ## Definición del producto
 
-Para el desarrollo del producto, fue necesario desarrollar preguntas para el usuario. Estas son las siguientes:
+Para el desarrollo del producto, fue necesario desarrollar preguntas. Estas son las siguientes:
 
 * ¿Quiénes son los principales usarios del producto?.
 
-
+Las Training Manager son las principales usuarias del producto, puesto a que hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje.
 
 * ¿Cuáles son los objetivos de estos usarios en relación con el producto?.
 
+1.- Permitir al usuario seleccionar un cohort de una lista de cohorts.
+2.- Al seleccionar un cohort:
+Listar las alumnas de ese cohort
+Para cada alumna:
+Calcular porcentaje de completitud de todos los cursos.
+Calcular grado de completitud de lecturas, ejercicios autocorregidos, y quizzes.
+Ordenar alumnas por completitud general (porcentaje consumido/completado de todos los cursos del cohort en cuestión), de lecturas, ejercicios autocorregidos y quizzes.
+Filtrar/buscar alumnas por nombre.
+Visualizarse sin problemas desde distintos tamaños de pantallas: móviles, tablets y desktops.
+Incluir pruebas unitarias.
 
 
 * ¿Cuáles son los datos más relevantes que el usuario quiere ver en la interfaz y por qué?. ¿Cómo los descubriste?.
@@ -47,9 +57,13 @@ Para el desarrollo del producto, fue necesario desarrollar preguntas para el usu
 
 Una vez identificado el problema, se estableció un prototipo de solución que fue expresado a través del sketch que se muestra a continuación:
 
+![img](https://i.imgur.com/2Thbe3D.jpg)
 
+![img](https://i.imgur.com/FX9x4YB.jpg[/img)
 
+![img](https://i.imgur.com/3GC2bO7.jpg[/img)
 
+![img](https://i.imgur.com/UiUm6Fz.jpg)
 
 ## Diseño de la Interfaz de Usuario
 
