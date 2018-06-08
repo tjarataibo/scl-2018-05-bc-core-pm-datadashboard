@@ -25,20 +25,19 @@ Las Training Manager son las principales usuarias del producto, puesto a que hac
 
 * ¿Cuáles son los objetivos de estos usarios en relación con el producto?.
 
-      1. Permitir al usuario seleccionar un cohort de una lista de cohorts.
+   1. Permitir al usuario seleccionar un cohort de una lista de cohorts.
 
-      2. Al seleccionar un cohort:
-           * Listar las alumnas de ese cohort
-           * Para cada alumna:
-              * Calcular porcentaje de completitud de todos los cursos.
-              * Calcular grado de completitud de lecturas, ejercicios autocorregidos, y quizzes.
-           * Ordenar alumnas por completitud general (porcentaje consumido/completado de todos los cursos del cohort en cuestión), de lecturas, ejercicios autocorregidos y quizzes.
-           * Filtrar/buscar alumnas por nombre.
+   2. Al seleccionar un cohort:
+     * Listar las alumnas de ese cohort
+     * Para cada alumna:
+     * Calcular porcentaje de completitud de todos los cursos.
+     * Calcular grado de completitud de lecturas, ejercicios autocorregidos, y quizzes.
+     * Ordenar alumnas por completitud general (porcentaje consumido/completado de todos los cursos del cohort en cuestión), de lecturas, ejercicios autocorregidos y quizzes.
+    * Filtrar/buscar alumnas por nombre.
 
-      3. Visualizarse sin problemas desde distintos tamaños de pantallas: móviles, tablets y desktops.
+   3. Visualizarse sin problemas desde distintos tamaños de pantallas: móviles, tablets y desktops.
 
-         
-      4. Incluir pruebas unitarias.
+   4. Incluir pruebas unitarias.
 
 * ¿Cuáles son los datos más relevantes que el usuario quiere ver en la interfaz y por qué?. ¿Cómo los descubriste?.
 
