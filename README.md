@@ -39,10 +39,9 @@ Las Training Manager son las principales usuarias del producto, puesto a que hac
 
 4. Incluir pruebas unitarias.
 
-
 * ¿Cuáles son los datos más relevantes que el usuario quiere ver en la interfaz y por qué?. ¿Cómo los descubriste?.
 
-El orden de resultados por cohort, alumnas y que a la vez, se puedan filtrar.
+El orden de resultados por cohort, alumnas y que a la vez, se puedan filtrar, porque es más eficiente ver una lista resumida los resultados de cada curso, lectura, ejercicio y quizzes; que un listado uno a uno por alumnas.
 
 * ¿Cuándo revisa normalmente estos datos?.
 
