@@ -28,12 +28,12 @@ Las Training Manager son las principales usuarias del producto, puesto a que hac
       1. Permitir al usuario seleccionar un cohort de una lista de cohorts.
 
       2. Al seleccionar un cohort:
-              * Listar las alumnas de ese cohort
-              * Para cada alumna:
-                  * Calcular porcentaje de completitud de todos los cursos.
-                  * Calcular grado de completitud de lecturas, ejercicios autocorregidos, y quizzes.
-         * Ordenar alumnas por completitud general (porcentaje consumido/completado de todos los cursos del cohort en cuestión), de lecturas, ejercicios autocorregidos y quizzes.
-         * Filtrar/buscar alumnas por nombre.
+           * Listar las alumnas de ese cohort
+           * Para cada alumna:
+              * Calcular porcentaje de completitud de todos los cursos.
+              * Calcular grado de completitud de lecturas, ejercicios autocorregidos, y quizzes.
+           * Ordenar alumnas por completitud general (porcentaje consumido/completado de todos los cursos del cohort en cuestión), de lecturas, ejercicios autocorregidos y quizzes.
+           * Filtrar/buscar alumnas por nombre.
 
       3. Visualizarse sin problemas desde distintos tamaños de pantallas: móviles, tablets y desktops.
 
@@ -71,6 +71,8 @@ Una vez identificado el problema, se estableció un prototipo de solución que f
 ![img](https://i.imgur.com/3GC2bO7.jpg)
 
 ![img](https://i.imgur.com/dXgS5V4.jpg)
+
+
 
 ## Diseño de la Interfaz de Usuario
 
