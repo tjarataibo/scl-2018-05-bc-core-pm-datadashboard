@@ -64,9 +64,9 @@ Una vez identificado el problema, se estableció un prototipo de solución que f
 
 ![img](https://i.imgur.com/FX9x4YB.jpg[/img)
 
-![img](https://i.imgur.com/3GC2bO7.jpg[/img)
-
 ![img](https://i.imgur.com/UiUm6Fz.jpg)
+
+![img](https://i.imgur.com/3GC2bO7.jpg[/img)
 
 ## Diseño de la Interfaz de Usuario
 
