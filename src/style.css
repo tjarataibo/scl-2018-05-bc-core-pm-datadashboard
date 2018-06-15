@@ -10,3 +10,28 @@
     font-size: 16px;
     line-height: 145%;
   }
+
+.bg-yellow{
+    background-color: #FFE521;
+  }
+
+h1{
+      text-align: right;
+  }
+
+.pd-sections{
+    padding: 1% 0;
+    width : 70%;
+    margin-left : 435px;
+    margin-right : 0px;
+
+}
+
+.tc-black{
+    color: #000000;
+}
+
+.logoLab{
+  margin-right : 435px;
+
+}
