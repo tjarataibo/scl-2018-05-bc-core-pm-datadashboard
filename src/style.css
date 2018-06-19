@@ -1,46 +1,72 @@
 .bg-yellow{
-    background-color: #FFE521;
-  }
- 
- h1{
-      text-align: right;
-      padding-right: 10px;
-  }
- 
- 
-  /* Encabezado */
- .pd-sections{
-    padding: 1% 0;
-    width : 70%;
-    height: auto;
-    margin-left : 380px;
-    margin-right : 0px;
- 
- }
- 
- .tc-black{
-    color: #000000;
- }
- 
- .logo{
-   padding-top: 2em;
-   float: left;
-   width: 20%;
- }
- 
- /* Selección de sede */
- .form-control{
-    padding:  0.6px;
-    position : relative;
-    width : 20%;
-    text-align : center;
-    font-size : 15px;
-    bottom : -40px;
-    left: 20px;
- }
- /* Imagen Laboratoria */
- .card-img{
+  background-color: #FFE521;
+}
+.header{
+  top:0px;
+}
+h1{
+    text-align: right;
+    padding-right: 10px;   
+}
+/* Encabezado */
+.pd-sections{
+  padding: 1% 0;
   width : 70%;
+  height: auto;
   margin-left : 380px;
   margin-right : 0px;
- }
+}
+.tc-black{
+  color: #000000;
+}
+.logo{
+ position: relative;
+ top: 90px;
+ right: 400px;
+ bottom: 300px;
+ left: 60px;
+ width: 20%;;
+}
+/* Selección de sede */
+.form-control{
+  left: 50px;
+  padding:  0.6px;
+  position : relative;
+  width : 20%;
+  text-align : center;
+  font-size : 15px;
+  bottom : -40px;
+}
+/* Imagen Laboratoria */
+.card-img{
+width : 70%;
+margin-left : 380px;
+margin-right : 0px;
+}
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+}
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
