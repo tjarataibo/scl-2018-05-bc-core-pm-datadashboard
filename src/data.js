@@ -1,4 +1,4 @@
-
+window.onload
 
 //Función para users
 async function fetchAsync() {
@@ -51,26 +51,8 @@ fetchAsyncThree()
 .catch(error => console.log(error))
 
 
+//Llamar a las funciones con botones
 
-// Promise.all([   //Ejecuta todas las llamadas de manera paralela
-//     fetch(url1),
-//     fetch(url2),
-//     fetch(url3)
-// ]).then(
-//     (responses)=>{   //Responde a todas las promesas
-//         return Promise.all(responses.map((response)=>{
-//             return response.json();                
-//         }));                        
-//     }
-// ).then((responseJsons)=>{ //Arreglo de respuestas en json
-//     /*
-//      * Código que ocupa los jsons...
-//      */
-// }).catch(
-//     (error)=>{ // Al menos una llamada falló
-
-//     }
-// );
-// }
+document.getElementById("Alumnas").addEventListener("click", fetchAsync() )
 
 
