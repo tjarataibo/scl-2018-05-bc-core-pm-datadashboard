@@ -81,6 +81,7 @@ Una vez identificado el problema, se estableció un prototipo de solución que f
 
 Una vez revisado con el usuario el diseño de la interfaz, se realizó el prototipo de alta fidelidad.
 
+responsive
 ![img](https://marvelapp.com/dfij88j)
 
 
