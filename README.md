@@ -77,6 +77,12 @@ Una vez identificado el problema, se estableció un prototipo de solución que f
 
 ![img](https://i.imgur.com/dXgS5V4.jpg)
 
+## Prototipo de Alta Fidelidad
+
+Una vez revisado con el usuario el diseño de la interfaz, se realizó el prototipo de alta fidelidad.
+
+![img](https://marvelapp.com/dfij88j)
+
 
 
 ## Diseño de la Interfaz de Usuario
