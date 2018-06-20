@@ -19,7 +19,7 @@ async function fetchAsync() {
 
 
 //Función para progress
-async function fetchAsynchTwo() {
+async function fetchAsyncTwo() {
     const responseTwo = await fetch('https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts/lim-2018-03-pre-core-pw/progress.json');
     const progress = await responseTwo.json();
 
