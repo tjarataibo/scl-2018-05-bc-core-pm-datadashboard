@@ -1,46 +1,19 @@
-  /* Encabezado */
 .bg-yellow{
-    background-color: #FFE521;
-  }
+  background-color: #FFE521;
+}
+
+.header{
+  top:0px;
+}
 
 h1{
-       text-align: right;
-   }
+    text-align: right;
+    padding-right: 10px;   
+}
 
- .pd-sections{
-    padding: 1% 0;
-    width : 70%;
-    height: auto;
-    margin-left : 380px;
-    margin-right : 0px;
- }
-
- .tc-black{
-    color: #000000;
- }
-
- /* logo */
- .logo{
-   padding-top: 2em;
-   position : relative;
-   float: left;
-   width: 20%;
- }
-
- /* Selección de sede */
- .form-control{
-    padding:  0.6px;
-    position : relative;
-    width : 20%;
-    text-align : center;
-    font-size : 15px;
-    bottom : -26px;
-    left: 20px;
- }
-
- /* Imagen Laboratoria */
- .card-img{
-
+/* Encabezado */
+.pd-sections{
+  padding: 1% 0;
   width : 70%;
   height: auto;
   margin-left : 380px;
@@ -72,7 +45,7 @@ h1{
 }
 
 /* Imagen Laboratoria */
-.card-img{
+.card-img {
 width : 70%;
 margin-left : 380px;
 margin-right : 0px;
