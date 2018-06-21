@@ -77,12 +77,6 @@ Una vez identificado el problema, se estableció un prototipo de solución que f
 
 ![img](https://i.imgur.com/dXgS5V4.jpg)
 
-## Prototipo de Alta Fidelidad
-
-Una vez revisado con el usuario el diseño de la interfaz, se realizó el prototipo de alta fidelidad.
-
-responsive
-https://marvelapp.com/dfij88j
 
 
 
@@ -149,3 +143,13 @@ A través de una herramienta de diseño visual, fue posible diseñar la interfaz
 ![img](https://i.imgur.com/fc6EuLM.jpg)
 
 ![img](https://i.imgur.com/FlH0O4D.jpg)
+
+## Prototipo de Alta Fidelidad
+
+Una vez revisado con el usuario el diseño de la interfaz. Basado en sus comentarios se realizó el prototipo de alta fidelidad.
+
+web
+https://marvelapp.com/4c03h4a
+
+responsive
+https://marvelapp.com/dfij88j
