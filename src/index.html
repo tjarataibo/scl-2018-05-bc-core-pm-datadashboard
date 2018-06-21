@@ -41,35 +41,18 @@
  <!-- Imagen Laboratoria -->
          <img class="card-img" src="https://i.imgur.com/TwU0dXY.png" alt="Card image">
          <script src="main.js"></script>
-
-   <!-- Gráficos de lecturas, ejercicios y quizzes por alumna 
-  <section class="container">
-      <div class="col-12 col-md-7">
-        <div class="row">
-          <div class="col-6 col-md-3 center">
-            <div class="circle">
-              <span>10%</span>
-            </div>
-            <span>Lecturas</span>
-          </div>
-          <div class="col-6 col-md-3 center">
-            <div class="circle">
-            <span>10%</span>
-            </div>
-            <span>Ejercicios</span>
-          </div>
-          <div class="col-6 col-md-3 center">
-            <div class="circle">
-            <span>10%</span>
-            </div>
-            <span>Quizzes</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="row space"></div>
--->  
+ <!-- Caja para Filtro por Alumnas-->         
+          <script>
+          $(document).ready(function(){
+            $("#myInput").on("keyup", function() {
+              var value = $(this).val().toLowerCase();
+              $("#myTable tr").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+              });
+            });
+          });
+          </script>  
+ <!--  -->         
 
 </body>
 
