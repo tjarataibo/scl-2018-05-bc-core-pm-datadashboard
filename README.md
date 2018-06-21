@@ -48,7 +48,7 @@ Los resultados de cada curso, lectura, ejercicio y quizzes, porque es más efici
 
 * ¿Cuándo revisa normalmente estos datos?.
 
-
+Se revisan con frecuencia diaria o día por medio.
 
 * ¿Cómo crees que el producto les está resolviendo sus problemas?.
 
@@ -57,11 +57,11 @@ Está ayudando a entregar información, de una forma más estética y más amabl
 
 * ¿Cómo fue tu proceso de diseño?.
 
-
+Una vez revisado con el usuario el diseño de la interfaz, basado en sus comentarios, se realizó el diseño: desde un sketch hasta el prototipo de alta fidelidad.
 
 * ¿Dónde va a estar el producto?.
 
-
+Va a ser mostrado en la página existente en donde tienen acceso a estos datos los Training Manager's
 
 ## Sketch de la solución
 
