@@ -48,7 +48,7 @@ Los resultados de cada curso, lectura, ejercicio y quizzes, porque es más efici
 
 * ¿Cuándo revisa normalmente estos datos?.
 
-
+Se revisan con frecuencia diaria o día por medio.
 
 * ¿Cómo crees que el producto les está resolviendo sus problemas?.
 
@@ -57,11 +57,11 @@ Está ayudando a entregar información, de una forma más estética y más amabl
 
 * ¿Cómo fue tu proceso de diseño?.
 
-
+Una vez revisado con el usuario el diseño de la interfaz, basado en sus comentarios, se realizó el diseño: desde un sketch hasta el prototipo de alta fidelidad.
 
 * ¿Dónde va a estar el producto?.
 
-
+Va a ser mostrado en la página existente en donde tienen acceso a estos datos los Training Manager's
 
 ## Sketch de la solución
 
@@ -84,7 +84,7 @@ Una vez identificado el problema, se estableció un prototipo de solución que f
 
 A través de una herramienta de diseño visual, fue posible diseñar la interfaz de usuario, como solución ideal:
 
-* versión PC:
+* versión Web:
 
 ![img](https://i.imgur.com/mzBl7h1.jpg)
 
@@ -146,10 +146,12 @@ A través de una herramienta de diseño visual, fue posible diseñar la interfaz
 
 ## Prototipo de Alta Fidelidad
 
-Una vez revisado con el usuario el diseño de la interfaz. Basado en sus comentarios se realizó el prototipo de alta fidelidad.
+Una vez revisado con el usuario el diseño de la interfaz, y en base a sus comentarios, se realizó el prototipo de alta fidelidad.
 
-web
+* versión Web:
+
 https://marvelapp.com/4c03h4a
 
-responsive
+* Versión Móvil:
+
 https://marvelapp.com/dfij88j
