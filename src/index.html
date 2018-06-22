@@ -23,14 +23,14 @@
                   <li><a href="#">HOME</a></li>
                   <li><a href="#">SEDE</a></li>
                   <li><a href="#">GENERACIÓN</a></li>
-                  <li><a onclick="traer()" href="#">ALUMNAS</a></li>
+                  <li><a onclick="traer(),verform()" href="#">ALUMNAS</a></li>
                 </ul>
              </div>
          </div>
      </div>
    </header>
    <!-- Opción sede -->
-   <!--<select class="form-control form-control-lg">
+   <select class="form-control form-control-lg">
        <option>Seleccionar Sede</option>
        <option>Lima</option>
        <option>Santiago</option>
@@ -38,26 +38,48 @@
        <option>Guadalajara</option>
        <option>Ciudad de México</option>
      </select>
- <! Imagen Laboratoria -->
+ <!--Imagen Laboratoria -->
  <div >
   
 
-         </divclass>       
+         </divclass>   
+            <div>
+         <script type="text/javascript">
+          function verform()
+          {
+          document.getElementById("frm").style.visibility="visible";
            
-  <!-- <img class="card-img" src="https://i.imgur.com/TwU0dXY.png" alt="Card image">-->
-         <table class="table">
+          document.getElementById("img").style.visibility="hidden";
+           
+          }
+          </script>
+           
+          <!--<form id="frm" style= visibility:hidden>
+          Campo 1: <input type="text" name="firstname" size="20"><br>
+          Campo 2: <input type="text" name="lastname" size="20"><br>
+          </form>-->
+           
+          
+          <!--<input type="image" onclick="verform()" src="https://i.imgur.com/TwU0dXY.png" id="img"> -->            
+           
+  <img class="card-img" id="img" src="https://i.imgur.com/TwU0dXY.png" alt="Card image">
+           </div>
+           
+         <table class="table" id="frm" style= visibility:hidden>
           <thead>
             <tr>
               <th scope="col">ID</th>
               <th scope="col">NOMBRE</th>
-              <th scope="col"></th>
-              <th scope="col">Handle</th>
+              <th scope="col">COHORT</th>
+              <th scope="col">CIUDAD</th>
             </tr>
           </thead>
           <tbody id="contenido">
            </tbody>
            </table>
         </div>
+
+        
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
