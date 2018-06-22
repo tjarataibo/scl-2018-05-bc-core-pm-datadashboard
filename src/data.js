@@ -1,4 +1,4 @@
-function users() {
+/*function users() {
     const urlUsers = "https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts/lim-2018-03-pre-core-pw/users.json"
     fetch(urlUsers)
     .then(response => response.json())
@@ -18,8 +18,8 @@ fetch (urlUsers).then(
 ).then((responseJsons)=>{ //Arreglo de respuestas en json
         /*
          * Código que ocupa los jsons...
-         */
-        console.log(urlUsers);
+         
+        //console.log(urlUsers);
     })
 
     const urlProgress ="https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts/lim-2018-03-pre-core-pw/progress.json" 
@@ -32,7 +32,7 @@ fetch (urlUsers).then(
     ).then((responseJsons)=>{ //Arreglo de respuestas en json
             /*
              * Código que ocupa los jsons...
-             */
+             
             console.log(urlProgress);
         })    
 
@@ -46,9 +46,9 @@ fetch (urlUsers).then(
         ).then((responseJsons)=>{ //Arreglo de respuestas en json
                 /*
                  * Código que ocupa los jsons...
-                 */
+                 
                 console.log(urlCohorts);
-            })        
+            })  */
 
 // window.onload
 
@@ -108,3 +108,40 @@ fetch (urlUsers).then(
 // document.getElementById("Alumnas").addEventListener("click", fetchAsync() )
 
 
+
+
+
+//document.getElementsByClassName("botonM").addEventListener("click", traer());
+//var contenido = document.querySelector("#contenido")
+
+function traer() {
+
+    fetch('../../data/cohorts/lim-2018-03-pre-core-pw/users.json')
+        .then(respuesta => respuesta.json())
+        .then(datos => {
+            //console.log(datos)
+            tabla(datos)
+        })
+
+function tabla(datos) {
+    //console.log(datos)
+    document.getElementById("contenido").innerHTML = ""
+    for (let valor of datos) {
+        console.log(valor)
+        document.getElementById("contenido").innerHTML += `
+        <tr>
+        <th scope="row">${valor.name}</th>
+        <td>${valor.id}</td>
+        <td>${valor.signupCohort}</td>
+        <td>${valor.timezone}</td>
+      </tr>
+        `
+    }
+
+}
+}
+/*var texts = [];
+Promise.all(promises)
+.then(results => {
+   results.forEach(result => result.text()).then(t => texts.push(t))
+})*/
