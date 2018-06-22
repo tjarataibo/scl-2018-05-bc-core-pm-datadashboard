@@ -144,6 +144,8 @@ A través de una herramienta de diseño visual, fue posible diseñar la interfaz
 
 ![img](https://i.imgur.com/FlH0O4D.jpg)
 
+
+
 ## Prototipo de Alta Fidelidad
 
 Una vez revisado con el usuario el diseño de la interfaz, y en base a sus comentarios, se realizó el prototipo de alta fidelidad.

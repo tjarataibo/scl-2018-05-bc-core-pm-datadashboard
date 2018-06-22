@@ -16,7 +16,7 @@ fetch (urlUsers).then(
         }
     }
 ).then((responseJsons)=>{ //Arreglo de respuestas en json
-        /*
+        /*s
          * Código que ocupa los jsons...
          */
         console.log(urlUsers);
@@ -106,5 +106,9 @@ fetch (urlUsers).then(
 // //Llamar a las funciones con botones
 
 // document.getElementById("Alumnas").addEventListener("click", fetchAsync() )
+
+
+
+
 
 
