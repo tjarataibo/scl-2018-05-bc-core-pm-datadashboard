@@ -11,6 +11,8 @@ h1{
     padding-right: 10px;   
 }
 .table {
+  position: absolute;
+  top: 14em;
   width : 70%;
   margin-left : 380px;
   margin-right : 0px;
