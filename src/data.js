@@ -1,5 +1,6 @@
 /*function users() {
     const urlUsers = "https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts/lim-2018-03-pre-core-pw/users.json"
+   
     fetch(urlUsers)
     .then(response => response.json())
     .then(data => { 
@@ -16,7 +17,7 @@ fetch (urlUsers).then(
         }
     }
 ).then((responseJsons)=>{ //Arreglo de respuestas en json
-        /*
+        /*s
          * Código que ocupa los jsons...
          
         //console.log(urlUsers);
