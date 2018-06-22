@@ -20,7 +20,7 @@
              <div class="col-12 col-md-12">
                  <h1>Bienvenid@</h1>
                  <ul class="breadcrumb">
-                  <li><a href="#">HOME</a></li>
+                  <li><a onclick="traer()" href="#">HOME</a></li>
                   <li><a href="#">SEDE</a></li>
                   <li><a href="#">GENERACIÓN</a></li>
                   <li><a href="#">ALUMNAS</a></li>
@@ -30,7 +30,7 @@
      </div>
    </header>
    <!-- Opción sede -->
-   <select class="form-control form-control-lg">
+   <!--<select class="form-control form-control-lg">
        <option>Seleccionar Sede</option>
        <option>Lima</option>
        <option>Santiago</option>
@@ -38,10 +38,32 @@
        <option>Guadalajara</option>
        <option>Ciudad de México</option>
      </select>
- <!-- Imagen Laboratoria -->
-         <img class="card-img" src="https://i.imgur.com/TwU0dXY.png" alt="Card image">
+ <! Imagen Laboratoria -->
+ <div >
+  <button type="button" class="btn btn-primary botonM"  >"Obtener"</button>
+
+         </divclass>       
+           
+  <!-- <img class="card-img" src="https://i.imgur.com/TwU0dXY.png" alt="Card image">-->
+         <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody id="contenido">
+           </tbody>
+           </table>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
          <script src="main.js"></script>
- <!-- Caja para Filtro por Alumnas-->         
+         <script src="data.js"></script> 
+ <!-- Caja para Filtro por Alumnas       
           <script>
           $(document).ready(function(){
             $("#myInput").on("keyup", function() {
@@ -51,8 +73,14 @@
               });
             });
           });
+
+
+         
+   
+  </tbody>
+</table>
           </script>  
- <!--  -->         
+ <!  -->         
 
 </body>
 
