@@ -114,6 +114,8 @@ fetch (urlUsers).then(
 //document.getElementsByClassName("botonM").addEventListener("click", traer());
 //var contenido = document.querySelector("#contenido")
 
+
+
 function traer() {
 
     fetch('../../data/cohorts/lim-2018-03-pre-core-pw/users.json')
@@ -130,8 +132,35 @@ function tabla(datos) {
         console.log(valor)
         document.getElementById("contenido").innerHTML += `
         <tr>
-        <th scope="row">${valor.name}</th>
-        <td>${valor.id}</td>
+        <th scope="row">${valor.id}</th>
+        <td>${valor.name}</td>
+        <td>${valor.signupCohort}</td>
+        <td>${valor.timezone}</td>
+      </tr>
+        `
+    }
+
+}
+}
+
+function traercohort() {
+
+    fetch('../../data/cohorts.json')
+        .then(respuesta => respuesta.json())
+        .then(datos => {
+            //console.log(datos)
+            tabla(datos)
+        })
+
+function tabla(datos) {
+    //console.log(datos)
+    document.getElementById("contenido").innerHTML = ""
+    for (let valor of datos) {
+        console.log(valor)
+        document.getElementById("contenido").innerHTML += `
+        <tr>
+        <th scope="row">${valor.id}</th>
+        <td>${valor.name}</td>
         <td>${valor.signupCohort}</td>
         <td>${valor.timezone}</td>
       </tr>
