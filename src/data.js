@@ -1,4 +1,4 @@
-/*function users() {
+ function users() {
     const urlUsers = "https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts/lim-2018-03-pre-core-pw/users.json"
    
     fetch(urlUsers)
@@ -8,17 +8,10 @@
     })
 }
 
-const searchUsers = document.getElementsByClassName("searchByNAme");
-const urlUsers = "https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts/lim-2018-03-pre-core-pw/users.json"
-fetch (urlUsers).then(
-    (response)=>{
-        if(response.ok){
-            return response.json();               
-        }
-    }
-).then((responseJsons)=>{ //Arreglo de respuestas en json
-        /*s
-         * Código que ocupa los jsons...
+
+    .then((responseJsons)=>{ //Arreglo de respuestas en json
+        
+         // Código que ocupa los jsons...
          
         //console.log(urlUsers);
     })
@@ -29,15 +22,15 @@ fetch (urlUsers).then(
             if(response.ok){
                 return response.json();                
             }
-        }
-    ).then((responseJsons)=>{ //Arreglo de respuestas en json
-            /*
-             * Código que ocupa los jsons...
+        })
+        .then((responseJsons)=>{ //Arreglo de respuestas en json
+            
+             // Código que ocupa los jsons...
              
             console.log(urlProgress);
         })    
 
-        const urlCohorts ="https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts.json"
+    const urlCohorts ="https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts.json"
         fetch (urlCohorts).then(
             (response)=>{
                 if(response.ok){
@@ -45,11 +38,11 @@ fetch (urlUsers).then(
                 }
             }
         ).then((responseJsons)=>{ //Arreglo de respuestas en json
-                /*
-                 * Código que ocupa los jsons...
+                
+                 // Código que ocupa los jsons...
                  
                 console.log(urlCohorts);
-            })  */
+            })  
 
 // window.onload
 
