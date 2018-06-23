@@ -23,86 +23,70 @@
                   <li><a href="#">HOME</a></li>
                   <li><a href="#">SEDE</a></li>
                   <li><a href="#">GENERACIÓN</a></li>
-                  <li><a onclick="traer()" href="#">ALUMNAS</a></li>
+                  <li><a href="#">ALUMNAS</a></li>
                 </ul>
              </div>
          </div>
      </div>
    </header>
-   <!-- Opción sede -->
-   <!--<select class="form-control form-control-lg">
-       <option>Seleccionar Sede</option>
-       <option>Lima</option>
-       <option>Santiago</option>
-       <option>Sao Paulo</option>
-       <option>Guadalajara</option>
-       <option>Ciudad de México</option>
-     </select>
-<<<<<<< HEAD
+  <section>
+   <div class="row">
+     <div class="col-12 col-md-5">
+       <input name="search" type="text" class="filteR" id="input-search" placeholder="Buscar alumna">
+       <i class="fas fa-search" id="searchingButtom"></i>
+     </div>
+     <div class="col-12 col-md-7">
+       <form method="POST" name="filterForm" name="filterForm">
+         <datalist id="filter">
+           <option id="list">Nombre</option>
+           <option id="list">Porcentaje general</option>
+           <option id="list">Ejercicios completados</option>
+           <option id="list">Quizzes completados</option>
+           <option id="list">Score promedio en quizzes completados</option>
+           <option id="list">Lecturas completadas</option>
+         </datalist>
 
-    <!-- Elegir generación-->
-     <div class="btn-group-vertical">
-       <button type="button" class="btn btn-secondary">Generación 1</button>
-       <button type="button" class="btn btn-secondary">Generación 2</button>
-       <button type="button" class="btn btn-secondary">Generación 3</button>
-       <button type="button" class="btn btn-secondary">Generación 4</button>
-       <button type="button" class="btn btn-secondary">Generación 5</button>
-    </div>
- <!-- Imagen Laboratoria -->
-         <img class="card-img" src="https://i.imgur.com/TwU0dXY.png" alt="Card image">
- <!-- Caja para Filtro por Alumnas-->         
-          <!-- <script>
-=======
- <! Imagen Laboratoria -->
- <div >
-  
-
-         </divclass>       
-           
-  <!-- <img class="card-img" src="https://i.imgur.com/TwU0dXY.png" alt="Card image">-->
-         <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">ID</th>
-              <th scope="col">NOMBRE</th>
-              <th scope="col"></th>
-              <th scope="col">Handle</th>
-            </tr>
-          </thead>
-          <tbody id="contenido">
-           </tbody>
-           </table>
-        </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-         <script src="main.js"></script>
-         <script src="data.js"></script> 
- <!-- Caja para Filtro por Alumnas       
-          <script>
->>>>>>> 6e765eb745a0e9d401b2a45f4c0c31893172773c
-          $(document).ready(function(){
-            $("#myInput").on("keyup", function() {
-              var value = $(this).val().toLowerCase();
-              $("#myTable tr").filter(function() {
-                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-              });
-            });
-          });
-<<<<<<< HEAD
-          </script>   -->
-  <script src="../src/data.js"></script>
-  <script src="../src/main.js"></script>
-=======
+         <input list="filter" type="text" id="input-filter" placeholder="Ordenar">
+         <input type="radio" name="orderDirection" value="asc">
+         <i class="fas fa-arrow-up" id="asc"></i>
+         <input type="radio" name="orderDirection" value="desc">
+         <i class="fas fa-arrow-down" id="desc"></i>
+         <button type="button" id="filterButtom">Filtrar</button>
+       </form>
+     </div>
+   </div>
+ </section>
+ <div class="row space"></div>
 
 
-         
-   
-  </tbody>
-</table>
-          </script>  
- <!  -->         
->>>>>>> 6e765eb745a0e9d401b2a45f4c0c31893172773c
+   <!-- Alumnas -->
+   <section>
+       <div class="row">
+         <div class="col-12 col-md-12 headerAlumn">
+           <div class="row">
+             <div class="col-md-2">
+               <span>Nombre</span>
+             </div>
+             <div class="col-md-2 center">
+               <span class="spanHeader">Porcentaje general </span>
+             </div>
+             <div class="col-md-2 center">
+               <span class="spanHeader">Ejercicios completados</span>
+             </div>
+             <div class="col-md-2 center">
+               <span class="spanHeader">Quizzes completados</span>
+             </div>
+             <div class="col-md-2 center">
+               <span class="spanHeader">Score promedio</span>
+             </div>
+             <div class="col-md-2 center">
+               <span class="spanHeader">Lecturas completadas</span>
+             </div>
+           </div>
+         </div>
+       </div>
+
+ <script src="../src/data.js"></script>
 
 </body>
 
