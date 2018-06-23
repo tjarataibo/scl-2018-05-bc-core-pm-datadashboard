@@ -22,7 +22,7 @@ Para el desarrollo del producto, fue necesario desarrollar preguntas. Estas son 
 
 * ¿Quiénes son los principales usarios del producto?.
 
-Las Training Manager son las principales usuarias del producto, puesto a que hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje.
+Las Training Managers son las principales usuarias del producto, puesto a que hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje.
 
 
 * ¿Cuáles son los objetivos de estos usarios en relación con el producto?.
@@ -43,7 +43,7 @@ Las Training Manager son las principales usuarias del producto, puesto a que hac
 
 * ¿Cuáles son los datos más relevantes que el usuario quiere ver en la interfaz y por qué?. ¿Cómo los descubriste?.
 
-Los resultados de cada curso, lectura, ejercicio y quizzes, porque es más eficiente ver una lista resumida que un listado uno a uno por alumnas. Es por ello, que se realiza una función de filtrado por nombre.
+Los resultados de cada curso, lectura, ejercicios y quizzes, porque es más eficiente ver una lista resumida que un listado uno a uno por alumnas. Es por ello, que se realiza una función de filtrado por nombre.
 
 
 * ¿Cuándo revisa normalmente estos datos?.
@@ -52,16 +52,17 @@ Se revisan con frecuencia diaria o día por medio.
 
 * ¿Cómo crees que el producto les está resolviendo sus problemas?.
 
-Está ayudando a entregar información, de una forma más estética y más amable.
+Está ayudando a entregar información, que además de mostrarla en una forma más estética y amable, lo hace permitiendo a las Training Managers, enfocar refuerzos en aquellos contenidos que se ven reflejados con dificultad en las alumnas.
 
 
 * ¿Cómo fue tu proceso de diseño?.
 
-Una vez revisado con el usuario el diseño de la interfaz, basado en sus comentarios, se realizó el diseño: desde un sketch hasta el prototipo de alta fidelidad.
+Una vez revisado con el usuario el diseño de la interfaz, basado en sus comentarios, se realizó un sketch y un prototipo de alta fidelidad que permite llevar a cabo todos los objetivos.
 
 * ¿Dónde va a estar el producto?.
 
-Va a ser mostrado en la página existente en donde tienen acceso a estos datos los Training Manager's
+Va a ser mostrado en la página pre-existente de contenidos (LMS), para ser visualizado por las usuarias.
+
 
 ## Sketch de la solución
 
@@ -102,7 +103,7 @@ A través de una herramienta de diseño visual, fue posible diseñar la interfaz
 
 ![img](https://i.imgur.com/U5fY2u3.jpg)
 
-![img](img]https://i.imgur.com/gNxtCYU.jpg)
+![img](https://i.imgur.com/gNxtCYU.jpg)
 
 ![img](https://i.imgur.com/bekuNo8.jpg)
 
@@ -148,7 +149,7 @@ A través de una herramienta de diseño visual, fue posible diseñar la interfaz
 
 ## Prototipo de Alta Fidelidad
 
-Una vez revisado con el usuario el diseño de la interfaz, y en base a sus comentarios, se realizó el prototipo de alta fidelidad.
+Una vez revisado con el usuario el diseño de la interfaz y, en base a sus comentarios, se realizó el prototipo de alta fidelidad.
 
 * versión Web:
 
@@ -157,3 +158,8 @@ https://marvelapp.com/4c03h4a
 * Versión Móvil:
 
 https://marvelapp.com/dfij88j
+
+
+## Planning
+
+https://trello.com/b/LrsTTpCu/data-dashboard
