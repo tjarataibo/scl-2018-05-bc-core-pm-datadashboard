@@ -115,9 +115,23 @@ fetch (urlUsers).then(
 //document.getElementsByClassName("botonM").addEventListener("click", traer());
 //var contenido = document.querySelector("#contenido")
 
+function verTabla()
+{
+document.getElementById("frm").style.visibility="visible";
+ 
+document.getElementById("img").style.visibility="hidden";
+ 
+}
 
+function verMenuGeneraciones()
+{
+document.getElementById("menu").style.visibility="visible";
+ 
+document.getElementById("img").style.visibility="visible";
+ 
+}
 
-function traer() {
+/*function traer() {
 
     fetch('../../data/cohorts/lim-2018-03-pre-core-pw/users.json')
         .then(respuesta => respuesta.json())
@@ -133,7 +147,7 @@ function tabla(datos) {
         console.log(valor)
         document.getElementById("contenido").innerHTML += `
         <tr>
-        <th scope="row">${valor.id}</th>
+        <td>${valor.id}</td>
         <td>${valor.name}</td>
         <td>${valor.signupCohort}</td>
         <td>${valor.timezone}</td>
@@ -142,7 +156,10 @@ function tabla(datos) {
     }
 
 }
+
 }
+
+
 
 function traercohort() {
 
@@ -170,8 +187,54 @@ function tabla(datos) {
 
 }
 }
+
+
+    
+    
+   
+       
+
+
+
 /*var texts = [];
 Promise.all(promises)
 .then(results => {
    results.forEach(result => result.text()).then(t => texts.push(t))
 })*/
+
+function traer() {
+
+    const urlUsers = "../../data/cohorts/lim-2018-03-pre-core-pw/users.json";//"https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts/lim-2018-03-pre-core-pw/users.json";
+    const urlProgress ="../data/cohorts/lim-2018-03-pre-core-pw/progress.json";//"https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts/lim-2018-03-pre-core-pw/progress.json"; 
+    const urlCohorts ="../data/cohorts.json";//"https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts.json";
+
+    Promise.all([   //Ejecuta todas las llamadas de manera paralela
+
+    fetch(urlUsers),
+    fetch(urlProgress),
+    fetch(urlCohorts),
+    
+    ]).then(
+    (respuesta => respuesta.json())  //Responde a todas las promesas
+        //return Promise.all(responses.map((response)=>{
+            //console.log(response);
+                         
+        )                      
+    
+
+    .then(
+    (datos)=>{ //Arreglo de respuestas en json
+        console.log(datos)
+        tabla(datos)
+    /*
+     * Código que ocupa los jsons...
+     */
+    })
+    
+    .catch(
+    (error)=>{ // Al menos una llamada falló
+
+    }
+)}
+
+
