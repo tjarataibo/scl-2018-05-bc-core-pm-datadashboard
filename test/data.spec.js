@@ -78,15 +78,15 @@ describe('data', () => {
     const cohort = fixtures.cohorts.find(item => item.id === 'lim-2018-03-pre-core-pw');
     const courses = Object.keys(cohort.coursesIndex);
     const { users, progress } = fixtures;
-    const proceded = computeUsersStats(users, progress, courses);
+    const processed = computeUsersStats(users, progress, courses);
     it('debería retornar arreglo de usuarios ordenado por nombre ASC', () => {
-      const sortedUser = sortUsers(processed, 'name', 'ASC');
+      const sortedUsers = sortUsers(processed, 'name', 'ASC');
       for (let i = 1; i < sortedUsers.lenght; ++i) {           //Aquí debo partir de 1, porque si parto de 0, dejo al último sin poder testearse, sin pareja
         assert.isAtMost(sortedUsers[0].name.localeCompare(sortedUsers[1].name), -1);  //Aquí se pone isAtMost porque se debe pensar en que se pueden repetir los nombres (ej: Fernanda's)
       }
     });
     it('debería retornar arreglo de usuarios ordenado por nombre DESC');
-    const sortedUser = sortUsers(processed, 'name', 'ASC');
+    const sortedUsers = sortUsers(processed, 'name', 'ASC');
       for (let i = 1; i < sortedUsers.lenght; ++i) {           //Aquí debo partir de 1, porque si parto de 0, dejo al último sin poder testearse, sin pareja
         assert.isAtLeast(sortedUsers[0].name.localeCompare(sortedUsers[1].name), 0); //Puede ser -1 o 0.
       }
