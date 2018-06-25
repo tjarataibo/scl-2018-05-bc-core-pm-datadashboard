@@ -158,20 +158,20 @@ window.computeUsersStats = (users, progress, courses) => {
               exercises: { //Objeto con tres propiedades:
                 total: practiceTotal, //Número total de ejercicios autocorregidos presentes en cursos del cohort.
                 completed: practiceCompleted, //Número de ejercicios autocorregidos completados por el usuario.
-                percent: (practiceCompleted / practiceTotal) * 100, //Porcentaje de ejercicios autocorregidos completados.
+                percent: ((practiceCompleted / practiceTotal) * 100), //Porcentaje de ejercicios autocorregidos completados.
               },
     
               reads: { //Objeto con tres propiedades:
                 total: readsTotal, //Número total de lecturas presentes en cursos del cohort.
                 completed: readsCompleted, // Número de lecturas completadas por el usuario.
-                percent: (readsCompleted / readsTotal) * 100, //Porcentaje de lecturas completadas.
+                percent: ((readsCompleted / readsTotal) * 100), //Porcentaje de lecturas completadas.
               },
               quizzes: { //Objeto con cinco propiedades:
                 total: quizzTotal, //Número total de quizzes presentes en cursos del cohort.
                 completed: quizzCompleted, // Número de quizzes completadas por el usuario.
-                percent: (quizzCompleted / quizzTotal) * 100, //Porcentaje de quizzes completadas.
+                percent: ((quizzCompleted / quizzTotal) * 100), //Porcentaje de quizzes completadas.
                 scoreSum: scoreSumQuizz, //Suma de todas las puntuaciones (score) de los quizzes completados.
-                scoreAvg: scoreSumQuizz / quizzCompleted, //Promedio de puntuaciones en quizzes completados.
+                scoreAvg: (scoreSumQuizz / quizzCompleted), //Promedio de puntuaciones en quizzes completados.
               }
             }
           };
