@@ -1,4 +1,4 @@
-function verTabla()//funcion para hacer que aparezcan mis datos
+function verTabla()//funcion para hacer que aparescan mis datos
 {
 document.getElementById("frm").style.visibility="visible";
  
@@ -21,54 +21,59 @@ function tabla(responseJsons) { //tabla para mostrar llamado de datas
     }
 
 } 
-const users = "https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts/lim-2018-03-pre-core-pw/users.json";
-const progress ="https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts/lim-2018-03-pre-core-pw/progress.json"; 
-const cohorts ="https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts.json";
 
+function traer() {
 
-//se declaran variables para las url donde se alojan las datas
+    const urlUsers = "https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts/lim-2018-03-pre-core-pw/users.json";
+    const urlProgress ="https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts/lim-2018-03-pre-core-pw/progress.json"; 
+    const urlCohorts ="https://tjarataibo.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts.json";
+    
 
+    Promise.all([   //llama todas las bases
 
-Promise.all([   //Ejecuta todas las llamadas de manera paralela
-
-fetch(users),
-fetch(progress),
-fetch(cohorts),
-
-])
-.then((responses)=>{   //Responde a todas las promesas
-        return Promise.all(responses.map((response)=>{
+    fetch(urlUsers),
+    fetch(urlProgress),
+    fetch(urlCohorts),
+    
+    ]) .then((responses)=>{   //Responde a todas las promesas
+        return Promise.all(responses.map((response)=>{ //map me entrega un nuevo arreglo con las tres bases
             //console.log(response);
             return response.json();                
         }));                       
     }               
-
-
-)
-.then((responseJsons)=>{ //Arreglo de respuestas en json
-    let users = responseJsons[0]
-    let progress = responseJsons[1]
-    let cohorts = responseJsons[2].filter((cohort)=>{
-      return cohort.id 
-  });
-        console.log(cohorts);    
-        console.log(users);
-        console.log(progress);
-        
     
-    // courses.id = object.keys(cohorts[2].coursesIndex);
-    result = computeUsersStats(users,progress,courses);
-    sortUsers(result,"name","DESC");
+
+    ).then((responseJsons) =>{ //Arreglo de las respuestas en json
+       let users = responseJsons[0]
+       let progress = responseJsons[1]
+       let cohorts = responseJsons[2].filter((cohort)=>{
+          
+           return cohort.id;
+           
+       });
+
+       
+
+       tabla(responseJsons)
+     //console.log(responseJsons)
      
+     
+        /*
+     * Código que ocupa los jsons...
+     */
+    })
+   
+    .catch(
+    (error)=>{ // Al menos una llamada falló
 
-})
+    }
+)}
+//promisse all listo !!! HASTA ACA FUNCIONA !!!!!
 
-.catch(
-(error)=>{ // Al menos una llamada falló
 
-}
-)
-//promisse all listo !!! HASTA ACA FUNCIONA.
+
+//                  <------------------------->
+
 
 
 // 1) computeUsersStats(users, progress, courses)
@@ -153,20 +158,20 @@ window.computeUsersStats = (users, progress, courses) => {
               exercises: { //Objeto con tres propiedades:
                 total: practiceTotal, //Número total de ejercicios autocorregidos presentes en cursos del cohort.
                 completed: practiceCompleted, //Número de ejercicios autocorregidos completados por el usuario.
-                percent: ((practiceCompleted / practiceTotal) * 100), //Porcentaje de ejercicios autocorregidos completados.
+                percent: (practiceCompleted / practiceTotal) * 100, //Porcentaje de ejercicios autocorregidos completados.
               },
     
               reads: { //Objeto con tres propiedades:
                 total: readsTotal, //Número total de lecturas presentes en cursos del cohort.
                 completed: readsCompleted, // Número de lecturas completadas por el usuario.
-                percent: ((readsCompleted / readsTotal) * 100), //Porcentaje de lecturas completadas.
+                percent: (readsCompleted / readsTotal) * 100, //Porcentaje de lecturas completadas.
               },
               quizzes: { //Objeto con cinco propiedades:
                 total: quizzTotal, //Número total de quizzes presentes en cursos del cohort.
                 completed: quizzCompleted, // Número de quizzes completadas por el usuario.
-                percent: ((quizzCompleted / quizzTotal) * 100), //Porcentaje de quizzes completadas.
+                percent: (quizzCompleted / quizzTotal) * 100, //Porcentaje de quizzes completadas.
                 scoreSum: scoreSumQuizz, //Suma de todas las puntuaciones (score) de los quizzes completados.
-                scoreAvg: (scoreSumQuizz / quizzCompleted), //Promedio de puntuaciones en quizzes completados.
+                scoreAvg: scoreSumQuizz / quizzCompleted, //Promedio de puntuaciones en quizzes completados.
               }
             }
           };
