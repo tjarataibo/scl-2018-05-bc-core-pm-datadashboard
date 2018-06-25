@@ -17,6 +17,25 @@ h1{
   margin-left : 380px;
   margin-right : 0px;
   }
+  .btn {
+      top: 5em;
+      padding: 10px;
+      font-weight: 600;
+      font-size: 20px;
+      color: fuchsia;
+      background-color: white;
+      border: 0px;
+      left: 90px;
+      position : relative;
+      width : 20%;
+      text-align : center;
+    
+    
+    
+  }
+  .btn-secondary{
+
+  }
 
 /* Encabezado */
 .pd-sections{
@@ -42,6 +61,13 @@ h1{
 
 .breadcrumb{
   background-color: #FFE521
+
+}
+
+.td{
+  
+  font-family:sans-serif; 
+   
 }
 
 /* Selección de sede */
@@ -57,6 +83,8 @@ h1{
 
 /* Imagen Laboratoria */
 .card-img{
+position: absolute;
+top: 14em;
 width : 70%;
 margin-left : 380px;
 margin-right : 0px;
