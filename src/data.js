@@ -1,4 +1,4 @@
-function verTabla()//funcion para hacer que aparescan mis datos
+function verTabla()//funcion para hacer que aparezcan mis datos
 {
 document.getElementById("frm").style.visibility="visible";
  
