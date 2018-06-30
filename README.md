@@ -2,10 +2,10 @@
 
 ## Introducción
 
-En la presente página, se da a conocer información general de alumnas de Laboratoria, pudiendo realizar búsqueda y filtración de ellas, mostrando su orden por porcentaje de completitud de cursos y, en consecuencia; porcentaje de lecturas, ejercicios, autocorregidos y quizzes.   
+En la presente página, se da a conocer información general de alumnas de Laboratoria, pudiendo realizar búsqueda y filtración de ellas, mostrando su orden por porcentaje de completitud de cursos y, en consecuencia; porcentaje de lecturas, ejercicios y quizzes.   
 
 Esto fue posible luego de una recolección de data, que fue transformada en información útil para posteriormente visualizarla de forma sencilla.
-Para comprender esta recopilación de data, a continuación se describe un ejemplo en breve, para entender qué significa "data" y cómo lo implementamos de acuerdo a nuestro objetivo.
+Para comprender esta recopilación de data, a continuación se describe un ejemplo en breve, para entender cómo leemos esta data a través de un "dashboard" y, cómo lo implementamos de acuerdo a nuestro objetivo.
 
 Si pensamos en un dashboard, podemos pensar en el tablero de control de un auto o de un avión. Un espacio desde el cual un usuario puede tener acceso a la información y controles más relevantes, en este caso, del vehículo que está utilizando. El dashboard de un auto le permite a quien conduce saber a qué velocidad está yendo, qué cambio está utilizando, cuánto combustible tiene disponible, qué tan caliente está el motor, cuántas revoluciones por minuto dan las ruedas, cuánta distancia has recorrido, etc.
 
@@ -44,6 +44,7 @@ Las Training Managers son las principales usuarias del producto, puesto a que ha
 * ¿Cuáles son los datos más relevantes que el usuario quiere ver en la interfaz y por qué?. ¿Cómo los descubriste?.
 
 Los resultados de cada curso, lectura, ejercicios y quizzes, porque es más eficiente ver una lista resumida que un listado uno a uno por alumnas. Es por ello, que se realiza una función de filtrado por nombre.
+Fue posible descubrirlo porque son los datos que se revisan a diario, de forma manual, en eso se centran nuestras usuarias.
 
 
 * ¿Cuándo revisa normalmente estos datos?.
