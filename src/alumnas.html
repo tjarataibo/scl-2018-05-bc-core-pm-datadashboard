@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Data Dashboard</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.css"></link>
+    <!-- Modo móvil -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+   <link rel="stylesheet" href="style.css"></link>
+    <!-- Fuente -->
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"></link>
+    <!-- Funcionalidad de opción sede -->
+   
+ </head>
+ <body>
+   <!-- Encabezado -->
+   <img class="logo" src="img/logo.png" alt="">
+   <header class="bg-yellow  pd-sections tc-black">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-md-12">
+                 <h1>Bienvenid@</h1>
+                 <ul class="breadcrumb">
+                  <li><a href="../src/index.html">HOME</a></li>
+                  <li><a href="#">SEDE</a></li>
+                  <li><a onclick="traercohort(),verMenuGeneraciones()" href="../src/generacion.html">GENERACION</a></li>
+                  <li><a onclick="traer(),verTabla()" href="../src/alumnas.html">ALUMNAS</a></li>
+                </ul>
+             </div>
+         </div>
+     </div>
+   </header>
+
+
+   <!-- <div class="col-9 col-sm-9 col-md-9 col-lg-9" id="Cohorts">
+      <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12" id="superior">
+              <h1>Resultados de lecturas, ejercicios y quizzes</h1>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+              <div class="cont">
+                  <div class="studentdata">
+                      <div class="studentlist">
+                          <table>
+
+                                          <select onchange="seleccion()">
+                                          <option >Ordenar los resultados</option>
+                                          <option id="nameorder">Ordenar por Nombre (abc)</option> 
+                                          <option id="aveord">Avance General % (ASC)</option> 
+                                          <option id="btnejerCom">Ejercicios completados (ASC)</option>
+                                          <option id="btnquizzes">Puntuación promedio en quizzes (ASC)</option> 
+                                       </select>
+                                      </th>
+                                  </tr>
+                                  <tr>
+                                      <td class="name">
+                                          <h2>Nombre</h2>
+                                      </td>
+                                      <td class="percent">
+                                          <h2>Avance general</h2>
+                                      </td>
+                                      <td class="exercisesCompleted">
+                                          <h2>Ejercicios Completados</h2>
+                                      </td>
+                                      <td class="quizzesCompleted">
+                                          <h2>Quizzes Completados</h2>
+                                      </td>
+                                      <td class="quizzesScoreAvg">
+                                          <h2>Promedio puntuaciones de Quizzes</h2>
+                                      </td>
+                                      <td class="readsCompleted">
+                                          <h2>Lecturas Completadas</h2>
+                                      </td>
+                                  </tr>
+                              </thead>
+                              <tbody id="display">
+
+                              </tbody>
+                          </table>
+                      </div>
+                  </div>
+              </div>
+          </div>
+       -->
+
+    
+
+        
+
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="bootstrap/bootstrap.js"></script>
+          <script src="../src/data.js"></script>
+          <script src="../src/main.js"></script>
+
+
+</body>
+
+</html>

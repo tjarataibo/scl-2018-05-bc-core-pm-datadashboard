@@ -10,14 +10,6 @@
    <link rel="stylesheet" href="style.css"></link>
     <!-- Fuente -->
    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"></link>
-    <!-- Funcionalidad de opción sede -->
-    <script LANGUAGE="JavaScript">
-      function abreSitio(){
-      var URL = "../src/";
-      var web = document.form1.sitio.options[document.form1.sitio.selectedIndex].value;
-      window.open(URL+web, '_blank', '');
-      }
-      </script>
  </head>
  <body>
    <!-- Encabezado -->
@@ -37,25 +29,23 @@
          </div>
      </div>
    </header>
-   <!-- Opción sede -->
-     <form name="form1" target="_blank">
-      <select name="sitio">
-      <option>Selecciona Sede</option>
-      <option value="../src/generacion.html">Lima</option>
-      <option value="#">Santiago</option>
-      <option value="#">Sao Paulo</option>
-      <option value="#">Guadalajara</option>
-      <option value="#">Ciudad de México</option>
-      </select>
-      <input type="button" value="Ir" onClick="javascript:abreSitio()">
-      </form>
       
-   
- 
-        <img class="card-img" id="img" src="https://i.imgur.com/TwU0dXY.png" alt="Card image">
-     <div>
-           
+    <!-- Elegir generación-->
+     <div class="btn-group-vertical" id="menu">
+       
+       
 
+       <button type="button" class="btn btn-secondary">Generación 1</button>
+       <button type="button" class="btn btn-secondary">Generación 2</button>
+       <button type="button" onclick="location.href='alumnas.html';"class="btn btn-secondary">Generación 3</button>
+       <button type="button" class="btn btn-secondary">Generación 4</button>
+       <button type="button" class="btn btn-secondary">Generación 5</button>
+    </div>
+ 
+ 
+  <img class="card-img" id="img" src="https://i.imgur.com/TwU0dXY.png" alt="Card image">
+
+           
 
           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
           <script src="bootstrap/bootstrap.js"></script>
